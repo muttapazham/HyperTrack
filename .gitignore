@@ -1,0 +1,15 @@
+# Personal symptom data must never be committed
+data/hypertrack.db
+data/*.db
+Hypertrackv1.csv
+*.personal.csv
+report.pdf
+_upload.csv
+export*.csv
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.streamlit/secrets.toml
+.DS_Store
